@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="CyberALI-eng – Portfolio of a web developer and cybersecurity expert." />
+    <meta name="keywords" content="CyberALI, portfolio, web developer, cybersecurity, hacker-style" />
+    <meta name="author" content="Ali Khusroo Bin Sabir" />
+    <link rel="canonical" href="https://CyberAli-eng.github.io/" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>CyberAli-eng | Projects</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/icons/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>CyberALI-eng</h1>
+        <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="projects ">
+            <div class="project-grid">
+                <!--  project card -->
+                <div class="project-card">
+                    <div class="card-front">
+                        <h2>🔍 Google Clone </h2>
+                        <p>A lightweight front-end clone of Google search with responsive layout and custom dark theme.
+                            Built using HTML, CSS, and basic JavaScript.</p>
+                    </div>
+                    <div class="card-back"
+                        style="background-image: url(./assets/images/Google.png); background-size: contain; background-repeat: no-repeat;">
+                        <a href="https://github.com/me50/CyberAli-eng" target="_blank">GitHub</a><br>
+                        <a href="https://youtu.be/xMjOZD6zqPc?si=MfYW1JuQk2UvQCol" target="_blank">YouTube</a>
+                    </div>
+                </div>
+                <!--  project card -->
+                <div class="project-card">
+                    <div class="card-front">
+                        <h2>🏨 Hotel System MVP </h2>
+                        <p>Full-stack hotel management system with login, booking, food order, and billing. Developed in
+                            Django with SQLite. Includes PDF/CSV export and admin control.</p>
+                    </div>
+                    <div class="card-back"
+                        style="background-image: url(./assets/images/hotel.png); background-size: contain; background-repeat: no-repeat;">
+                        <a href="https://github.com/CyberAli-eng/CyberAli-Hotel-Management-System.git" target="_blank"
+                            class="learn-more">GitHub</a>
+                        <a href="project1.html?id=1" class="learn-more">YouTube Live</a>
+                    </div>
+                </div>
+                <!-- Add more project cards here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="https://instagram.com/yourusername" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com/yourusername" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://linkedin.com/in/ali-khusroo-bin-sabir" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/yourusername" target="_blank">
+                <img src="./assets/icons/twitter.avif" height=25x width=25px alt="Award 2">
+            </a>
+            <a href="https://wa.me/8630311908" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <p>&copy; 2025 CyberAli-eng and Ali Khusroo Bin Sabir</p>
+    </footer>
+
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navbar = document.getElementById('navbar');
+
+        menuToggle.addEventListener('click', () => {
+            navbar.classList.toggle('open');
+        });
+
+        menuToggle.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                navbar.classList.toggle('open');
+            }
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

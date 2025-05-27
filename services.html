@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CyberALI-eng – Portfolio of a web developer and cybersecurity expert." />
+  <meta name="keywords" content="CyberALI, portfolio, web developer, cybersecurity, hacker-style" />
+  <meta name="author" content="Ali Khusroo Bin Sabir" />
+  <link rel="canonical" href="https://CyberAli-eng.github.io/" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Services | CyberALI-eng</title>
+  <link rel="icon" href="./assets/icons/icon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>CyberALI-eng</h1>
+    <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="navbar">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <div class="service">
+      <h2>🧠 Web Development</h2>
+      <p>Custom, modern websites and web apps using HTML, CSS, JS, Django, and Flask. Clean design, fast performance,
+        and fully responsive builds.</p>
+    </div>
+
+    <div class="service">
+      <h2>🛡️ Cybersecurity</h2>
+      <p>Certified in CCNA with hands-on experience in network scanning, penetration testing, and securing applications.
+        I provide consultancy and defense strategies for digital protection.</p>
+    </div>
+
+    <div class="service">
+      <h2>🎓 Coaching & Mentorship</h2>
+      <p>Guidance for students and early professionals in programming, full stack development, and ethical hacking.
+        Online 1-on-1 or group sessions available.</p>
+    </div>
+  </main><br><br><br>
+
+  <footer>
+    <div class="footer-content">
+      <a href="https://instagram.com/yourusername" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://youtube.com/yourusername" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://facebook.com/" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://linkedin.com/in/ali-khusroo-bin-sabir" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://x.com/yourusername" target="_blank">
+        <img src="./assets/icons/twitter.avif" height=25x width=25px alt="Award 2">
+      </a>
+      <a href="https://wa.me/8630311908" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <p>&copy; 2025 CyberAli-eng and Ali Khusroo Bin Sabir</p>
+  </footer>
+
+  <script>     const menuToggle = document.getElementById('menu-toggle');
+    const navbar = document.getElementById('navbar');
+
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('open');
+    });
+
+    menuToggle.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        navbar.classList.toggle('open');
+      }
+    });</script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
