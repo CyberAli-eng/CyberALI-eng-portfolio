@@ -37,4 +37,32 @@ I'm a B.Tech Computer Science graduate with hands-on experience in full stack de
 ---
 
 ## 📂 Folder Structure
+CyberALI-eng-portfolio/
+├── index.html
+├── services.html
+├── projects.html
+├── contact.html
+├── assets/
+│ └── images, icons, etc.
+├── css/
+│ └── styles.css
+└── README.md
+
+
+---
+
+## 📬 Contact Me
+
+- 📧 **Email:** alisabir97570@gmail.com  
+- 📍 **Location:** Aligarh / Noida  
+- 🔗 **LinkedIn:** [linkedin.com/in/ali-khusroo-bin-sabir](https://linkedin.com/in/ali-khusroo-bin-sabir)
+
+---
+
+## 🚀 How to Use or Contribute
+
+1. Clone this repo:
+```bash
+git clone https://github.com/CyberAli-eng/CyberALI-eng-portfolio.git
+
 
