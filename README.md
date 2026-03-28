@@ -1,6 +1,6 @@
 # 🖥️ CyberALI-eng Portfolio
 
-Welcome to the official portfolio of **Ali Khusroo Bin Sabir** – a passionate Full Stack Developer and Cybersecurity Enthusiast.
+Welcome to the simple portfolio of **Ali Khusroo Bin Sabir** – a passionate Full Stack Developer and Cybersecurity Enthusiast.
 
 🔗 **Live Website:** [https://cyberali-eng.netlify.app/](https://cyberali-eng.netlify.app/)
 
