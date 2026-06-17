@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Users } from "lucide-react";
 import { differenceInMinutes, format } from "date-fns";
+import Image from "next/image";
+
 import { ArrowDown, Hash } from "lucide-react";
 import { ScrollArea } from "../../ui/scroll-area";
 import { cn } from "@/lib/utils";
@@ -75,7 +77,7 @@ export const ChatMessageList = ({
                       }
                     }}
                   >
-                    <img
+                    <Image
                       src={getAvatarUrl(user?.avatar || msg.avatar)}
                       alt={user?.name || msg.username}
                       className="w-10 h-10 rounded-full"

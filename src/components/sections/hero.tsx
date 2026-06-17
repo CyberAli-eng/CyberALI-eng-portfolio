@@ -68,7 +68,7 @@ const HeroSection = () => {
                     </TooltipContent>
                   </Tooltip>
                 </BlurIn>
-                {/* <div className="md:block hidden bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 w-screen h-px animate-fade-right animate-glow" /> */}
+                <div className="md:block hidden bg-gradient-to-r from-slate-500/0 via-slate-500/50 to-slate-500/0 w-screen h-px animate-fade-right animate-glow" />
                 <BlurIn delay={1.2}>
                   <p
                     className={cn(
@@ -76,14 +76,14 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Full Stack Web Developer
+                    AI/ML Engineer | Automation Specialist | Python Full Stack Developer
                   </p>
                 </BlurIn>
               </div>
               <div className="mt-8 flex flex-col gap-3 w-fit">
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1MTSsUA8V7Po2AsNXT8kZ5sLOpzC8l7qm/view?usp=sharing"
+                    "https://drive.google.com/file/d/14kPtL6eAe2XkPFWsXWb_b5ZvedD8DlFU/view?usp=drive_link"
                   }
                   target="_blank"
                   className="flex-1"
@@ -108,18 +108,10 @@ const HeroSection = () => {
                       </Link>
                     </TooltipTrigger>
                     <TooltipContent side="bottom">
-                      <p>pls 🥹 🙏</p>
+                      <p>Please 🙏</p>
                     </TooltipContent>
                   </Tooltip>
                   <div className="flex items-center h-full gap-2">
-                    <Link
-                      href={config.social.twitter}
-                      target="_blank"
-                    >
-                      <Button variant={"outline"}>
-                        <SiX size={24} />
-                      </Button>
-                    </Link>
                     <Link
                       href={config.social.github}
                       target="_blank"
