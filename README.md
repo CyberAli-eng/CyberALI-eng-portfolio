@@ -177,4 +177,6 @@ If you'd like to contribute or suggest improvements, feel free to open an issue 
 
 This project is open source and available under the [MIT License](LICENSE).
 
-If you use this portfolio, a credit or link back to the [original repo](https://github.com/CyberAli-eng/CyberALI-eng-portfolio.git) would be much appreciated ❤️
+It is based on [3d-portfolio](https://github.com/Naresh-Khatri/3d-portfolio) by **Naresh Khatri** (MIT), and keeps its copyright and licence notice as the MIT License requires. Changes in this repo (Gowigro template, GitHub Pages demo, content and fixes) are by Ali Khusroo Bin Sabir.
+
+If you use this template, please keep the [LICENSE](LICENSE) file, which credits both.
