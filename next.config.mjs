@@ -8,9 +8,6 @@ const basePath = isGithubPages ? "/gowigro-portfolio-template" : "";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  eslint: {
-    ignoreDuringBuilds: true
-  },
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath
   },

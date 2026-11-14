@@ -9,6 +9,7 @@ import {
   isValidElement,
   type ButtonHTMLAttributes,
   type ReactNode,
+  type ReactElement,
 } from "react";
 
 const buttonVariants = cva(
@@ -51,10 +52,10 @@ const addClassNameRecursively = (
   const foo = (child: ReactNode) => {
     if (!isValidElement(child)) return child;
 
-    return cloneElement(child, {
-      // @ts-ignore
-      className: `${child.props.className || ""} ${className}`.trim(),
-      children: addClassNameRecursively(child.props.children, className),
+    const element = child as ReactElement<{ className?: string; children?: ReactNode }>;
+    return cloneElement(element, {
+      className: `${element.props.className || ""} ${className}`.trim(),
+      children: addClassNameRecursively(element.props.children, className),
     });
   };
   return Children.map(children, foo);
