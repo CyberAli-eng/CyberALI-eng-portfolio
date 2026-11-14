@@ -12,6 +12,7 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/navigation";
 import { Section, getKeyboardState } from "./animated-background-config";
 import { useSounds } from "./realtime/hooks/use-sounds";
+import { publicPath } from "@/lib/public-path";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -434,7 +435,7 @@ const AnimatedBackground = () => {
           setSplineApp(app);
           bypassLoading();
         }}
-        scene="/assets/skills-keyboard.spline"
+        scene={publicPath("/assets/skills-keyboard.spline")}
       />
     </Suspense>
   );

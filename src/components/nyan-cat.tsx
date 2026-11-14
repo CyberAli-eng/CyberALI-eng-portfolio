@@ -7,6 +7,7 @@ import {
   animate,
   useAnimationControls,
 } from "framer-motion";
+import { publicPath } from "@/lib/public-path";
 
 const getRandomHeight = () => {
   return `${Math.random() * 100}vh`;
@@ -92,7 +93,7 @@ const AnimatedDiv = ({
       onClick={handlePause}
     >
       <img
-        src="/assets/nyan-cat.gif"
+        src={publicPath("/assets/nyan-cat.gif")}
         className={cn("fixed z-10 h-40 w-auto")}
         alt="Nyan Cat"
       />

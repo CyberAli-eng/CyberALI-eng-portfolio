@@ -1,45 +1,46 @@
 import { Link } from "@/types";
+import { publicPath } from "@/lib/public-path";
 
 const links: Link[] = [
   {
     title: 'Home',
     href: '/',
-    thumbnail: '/assets/nav-link-previews/landing.png'
+    thumbnail: publicPath("/assets/nav-link-previews/landing.png")
   },
   {
     title: 'About',
     href: '/#about',
-    thumbnail: '/assets/nav-link-previews/about.png'
+    thumbnail: publicPath("/assets/nav-link-previews/about.png")
   },
   {
     title: 'Skills',
     href: '/#skills',
-    thumbnail: '/assets/nav-link-previews/skills.png'
+    thumbnail: publicPath("/assets/nav-link-previews/skills.png")
   },
   {
     title: 'Projects',
     href: '/#projects',
-    thumbnail: '/assets/nav-link-previews/projects.png'
+    thumbnail: publicPath("/assets/nav-link-previews/projects.png")
   },
   // {
   //   title: 'Skills',
   //   href: '/skills',
-  //   thumbnail: '/assets/nav-link-previews/skills.png'
+  //   thumbnail: publicPath("/assets/nav-link-previews/skills.png")
   // },
   // {
   //   title: 'Testimonials',
   //   href: '/testimonials',
-  //   thumbnail: '/assets/nav-link-previews/testimonials.png'
+  //   thumbnail: publicPath("/assets/nav-link-previews/testimonials.png")
   // },
   // {
   //   title: 'Blogs',
   //   href: '/blogs',
-  //   thumbnail: '/assets/nav-link-previews/blog.png',
+  //   thumbnail: publicPath("/assets/nav-link-previews/blog.png"),
   // },
   {
     title: 'Contact',
     href: '/#contact',
-    thumbnail: '/assets/nav-link-previews/contact.png'
+    thumbnail: publicPath("/assets/nav-link-previews/contact.png")
   }
 ];
 

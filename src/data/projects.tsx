@@ -38,7 +38,8 @@ import {
   SiVuedotjs,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
-const BASE_PATH = "/assets/projects-screenshots";
+import { publicPath } from "@/lib/public-path";
+const BASE_PATH = publicPath("/assets/projects-screenshots");
 
 const ProjectsLinks = ({ live, repo }: { live: string; repo?: string }) => {
   return (
@@ -304,7 +305,7 @@ const projects: Project[] = [
     id: "workrobo",
     category: "AI SaaS",
     title: "WorkRobo",
-    src: "/assets/projects-screenshots/workrobo/home.png",
+    src: publicPath("/assets/projects-screenshots/workrobo/home.png"),
     screenshots: ["1.png"],
     github: "https://github.com/CyberAli-eng/WorkRobo.ai",
     live: "",
@@ -350,7 +351,7 @@ const projects: Project[] = [
     id: "GOWIGRO",
     category: "AGENCY WEBSITE",
     title: "GOWIGRO",
-    src: "/assets/projects-screenshots/gowigro/home.png",
+    src: publicPath("/assets/projects-screenshots/gowigro/home.png"),
     screenshots: ["1.png"],
     live: "https://www.gowigro.com",
     skills: {
@@ -414,7 +415,7 @@ const projects: Project[] = [
     id: "QInterview.ai",
     category: "Interview chat",
     title: "QInterview",
-    src: "/assets/projects-screenshots/qinterview/landing.png",
+    src: publicPath("/assets/projects-screenshots/qinterview/landing.png"),
     screenshots: ["1.png", "2.png", "3.png", "4.png"],
     live: "https://qinterview-ai.vercel.app/",
     github: "https://github.com/CyberAli-eng/Qinterview.ai",
@@ -453,7 +454,7 @@ const projects: Project[] = [
   //   id: "GOWIGRO_GYM_TAMPLATE",
   //   category: "Gym Template",
   //   title: "Elite Performance Gym",
-  //   src: "/assets/projects-screenshots/gym-template/hero.png",
+  //   src: publicPath("/assets/projects-screenshots/gym-template/hero.png"),
   //   screenshots: ["1.png"],
   //   live: "https://gowigro-gym-template.onrender.com/",
   //   skills: {
@@ -548,7 +549,7 @@ const projects: Project[] = [
     id: "GOWIGRO-GYM-TEMPLATE",
     category: "GYM TEMPLATE",
     title: "Elite Performance Gym",
-    src: "/assets/projects-screenshots/gym-template/hero.png",
+    src: publicPath("/assets/projects-screenshots/gym-template/hero.png"),
     screenshots: ["1.png", "2.png", "3.png", "4.png"],
     live: "https://gowigro-gym-template.onrender.com",
     skills: {
@@ -585,7 +586,7 @@ const projects: Project[] = [
     id: "osms-php",
     category: "SaaS Enterprise Resource Planning (ERP)",
     title: "Online Service Management System (OSMS)",
-    src: "/assets/projects-screenshots/osms-php/user-login.png",
+    src: publicPath("/assets/projects-screenshots/osms-php/user-login.png"),
     screenshots: [
       "user-login.png",
       "admin-dashboard.png",
@@ -700,7 +701,7 @@ const projects: Project[] = [
     id: "CyberAli-Hotel-Management-System",
     category: "Management System",
     title: "Hotel Management System",
-    src: "/assets/projects-screenshots/HSM/dashboard.png",
+    src: publicPath("/assets/projects-screenshots/HSM/dashboard.png"),
     screenshots: ["dashboard.png", "book_rooms.png", "customer_list.png", "bii_summary.png"],
     live: "",
     github: "https://github.com/CyberAli-eng/CyberAli-Hotel-Management-System.git",
