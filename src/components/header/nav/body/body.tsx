@@ -5,7 +5,7 @@ import { blur, translate } from "../../anim";
 import { Link as LinkType } from "@/types";
 import { cn } from "@/lib/utils";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type JSX } from "react";
 import FunnyThemeToggle from "@/components/theme/funny-theme-toggle";
 
 interface SelectedLink {

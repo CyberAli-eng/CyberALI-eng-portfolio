@@ -30,8 +30,8 @@ const AnimatedBackground = () => {
   const [activeSection, setActiveSection] = useState<Section>("hero");
 
   // Animation controllers refs
-  const bongoAnimationRef = useRef<{ start: () => void; stop: () => void }>();
-  const keycapAnimationsRef = useRef<{ start: () => void; stop: () => void }>();
+  const bongoAnimationRef = useRef<{ start: () => void; stop: () => void }>(undefined);
+  const keycapAnimationsRef = useRef<{ start: () => void; stop: () => void }>(undefined);
 
   const [keyboardRevealed, setKeyboardRevealed] = useState(false);
   const router = useRouter();
