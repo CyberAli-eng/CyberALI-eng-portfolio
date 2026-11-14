@@ -380,7 +380,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/gowigro/service.png`,
+              `${BASE_PATH}/gowigro/Service.png`,
               `${BASE_PATH}/gowigro/service2.png`,
               `${BASE_PATH}/gowigro/service3.png`,
             ]}
@@ -437,12 +437,12 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/ghostchat/login.png`,
-              `${BASE_PATH}/ghostchat/dashboard.png`,
-              `${BASE_PATH}/ghostchat/sessions.png`,
-              `${BASE_PATH}/ghostchat/chatpage0.png`,
-              `${BASE_PATH}/ghostchat/chatpage.png`,
-              `${BASE_PATH}/ghostchat/chatpage2.png`,
+              `${BASE_PATH}/qinterview/login.png`,
+              `${BASE_PATH}/qinterview/dashboard.png`,
+              `${BASE_PATH}/qinterview/sessions.png`,
+              `${BASE_PATH}/qinterview/chatpage0.png`,
+              `${BASE_PATH}/qinterview/chatpage.png`,
+              `${BASE_PATH}/qinterview/chatpage2.png`,
             ]}
           />
         </div>
@@ -565,13 +565,13 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/ghostchat/about.png`,
-              `${BASE_PATH}/ghostchat/1.png`,
-              `${BASE_PATH}/ghostchat/2.png`,
-              `${BASE_PATH}/ghostchat/3.png`,
-              `${BASE_PATH}/ghostchat/4.png`,
-              `${BASE_PATH}/ghostchat/5.png`,
-              `${BASE_PATH}/ghostchat/6.png`,
+              `${BASE_PATH}/gym-template/about.png`,
+              `${BASE_PATH}/gym-template/1.png`,
+              `${BASE_PATH}/gym-template/2.png`,
+              `${BASE_PATH}/gym-template/3.png`,
+              `${BASE_PATH}/gym-template/4.png`,
+              `${BASE_PATH}/gym-template/5.png`,
+              `${BASE_PATH}/gym-template/6.png`,
 
             ]}
           />
@@ -685,11 +685,6 @@ const projects: Project[] = [
             The user dashboard provides a comprehensive overview of the system. It
             allows users to manage their services.
           </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/osms-php/user-dashboard.png`,
-            ]}
-          />
         </div>
       );
     },
@@ -738,7 +733,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/HSM/book_rooms.png`,
+              `${BASE_PATH}/HSM/book_room.png`,
               `${BASE_PATH}/HSM/customer_list.png`,
             ]}
           />
@@ -757,7 +752,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/HSM/book_rooms.png`,
+              `${BASE_PATH}/HSM/book_room.png`,
               `${BASE_PATH}/HSM/customer_list.png`,
             ]}
           />

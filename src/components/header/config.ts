@@ -8,11 +8,6 @@ const links: Link[] = [
     thumbnail: publicPath("/assets/nav-link-previews/landing.png")
   },
   {
-    title: 'About',
-    href: '/#about',
-    thumbnail: publicPath("/assets/nav-link-previews/about.png")
-  },
-  {
     title: 'Skills',
     href: '/#skills',
     thumbnail: publicPath("/assets/nav-link-previews/skills.png")
